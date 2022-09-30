@@ -42,7 +42,7 @@ const Directory = () => {
             <DirectoryItem key={category.id} category={category}/>
             ))}
         </DirectoyContainer>
-    )
-}
+    );
+};
 
 export default Directory;
